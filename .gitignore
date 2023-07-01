@@ -1,0 +1,25 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# Local build directory
+terraform/files/workoutgenerator
+
+# Local terraform recipe_generator
+backend.tf
+.terraform.lock.hcl
+
+# .tfstate recipe_generator
+*.tfstate
+*.tfstate.*
+
+# .tfvars recipe_generator
+*.tfvars
+
+# plan recipe_generator
+plan.out
+*.zip
+
+.idea
+.iml
+
+.DS_Store

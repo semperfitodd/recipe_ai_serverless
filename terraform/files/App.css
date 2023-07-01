@@ -1,0 +1,131 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Form Styles */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Recipe Styles */
+.recipe-generator {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.previous-recipes {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.previous-recipes h2 {
+  text-align: center;
+}
+
+.previous-recipes ul {
+  padding-inline-start: 0;
+}
+
+.previous-recipes li {
+  margin-bottom: 20px;
+}
+
+.previous-recipes strong {
+  font-weight: bold;
+}
+
+.previous-recipes ol {
+  margin-top: 10px;
+  padding-inline-start: 20px;
+}
+
+/* Loading Styles */
+.loading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Login/SignUp Styles */
+.login-container {
+  text-align: center;
+}
+
+.login-container button {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.login-container input[type="text"]::placeholder,
+.login-container input[type="password"]::placeholder {
+  color: #999;
+}
+
+.login-container button:last-child {
+  margin-top: 20px;
+}
+
