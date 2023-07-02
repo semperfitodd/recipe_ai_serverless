@@ -19,8 +19,6 @@ This project includes a Recipe Generator React web application that uses the fol
 * **Amazon Route 53**: A highly available and scalable cloud Domain Name System (DNS) web service.
 
 ## Directory Structure
-...
-
 
 ```plaintext
 .
